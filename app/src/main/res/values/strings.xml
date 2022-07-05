@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cab Booking App</string>
+    <string name="greeting">Welcome Yash,</string>
+    <string name="Desc">YBCab proactively offers its ride hailing services across the country with well maintained cars and professionally trained drivers</string>
+</resources>
