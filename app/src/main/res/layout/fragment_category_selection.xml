@@ -23,7 +23,7 @@
         android:layout_height="80dp"
         android:layout_marginTop="50dp"
         android:rotation="45"
-        android:alpha="0.5"
+        android:alpha="1"
         app:cardBackgroundColor="#FFC107"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
@@ -39,7 +39,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:alpha="0.5"
+        android:alpha="1"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginLeft="40dp"
@@ -85,7 +85,7 @@
         android:rotation="45"
         app:cardBackgroundColor="#FFC107"
         app:cardCornerRadius="10dp"
-        android:alpha="0.5"
+        android:alpha="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
         app:layout_constraintHorizontal_bias="0.0"
@@ -112,13 +112,16 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
+            <Button
+                android:id="@+id/sedan"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sedan"
                 android:gravity="center"
                 android:paddingTop="10dp"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:fontFamily="sans-serif-black"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -142,7 +145,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:alpha="0.75"
+        android:alpha="1"
         android:layout_marginTop="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/cardView9"
@@ -153,13 +156,16 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
+            <Button
+                android:id="@+id/rickshaw"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Rikshaw"
                 android:gravity="center"
                 android:paddingTop="10dp"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:fontFamily="sans-serif-black"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -185,7 +191,7 @@
         android:id="@+id/cardView7"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:alpha="0.75"
+        android:alpha="1"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cardView"
@@ -193,13 +199,16 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
+            <Button
+                android:id="@+id/suv"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="SUV"
                 android:gravity="center"
                 android:paddingTop="10dp"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:fontFamily="sans-serif-black"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -226,7 +235,7 @@
         android:layout_marginTop="30dp"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:alpha="0.75"
+        android:alpha="1"
         app:layout_constraintEnd_toEndOf="@+id/cardView7"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/cardView7"
@@ -234,13 +243,16 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
+            <Button
+                android:id="@+id/hatchback"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Hatch Back"
                 android:gravity="center"
                 android:paddingTop="10dp"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:fontFamily="sans-serif-black"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"

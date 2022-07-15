@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/drawable/glass_effect.xml" value="0.226" />
-        <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/fragment_book_cab_fragment.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/fragment_book_car.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/fragment_category_selection.xml" value="0.253125" />
+        <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/fragment_date_and_time.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/fragment_location_selection.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/fragment_my_booking_rv_item.xml" value="0.253125" />
+        <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/fragment_select_car.xml" value="0.1" />
         <entry key="..\:/Users/yashb/AndroidStudioProjects/CabBookingApp/app/src/main/res/layout/screen_2.xml" value="0.253125" />
       </map>
     </option>

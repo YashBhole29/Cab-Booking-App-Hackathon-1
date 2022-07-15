@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_book_car">
+
+    <fragment
+        android:id="@+id/fragment_book_car"
+        android:name="com.example.cabbookingapp.fragment_book_car"
+        android:label="fragment_book_car"
+        tools:layout="@layout/fragment_book_car" >
+        <action
+            android:id="@+id/action_fragment_book_car_to_location_selection"
+            app:destination="@id/location_selection" />
+        <action
+            android:id="@+id/action_fragment_book_car_to_my_booking_rv_item"
+            app:destination="@id/my_booking_rv_item" />
+    </fragment>
+    <fragment
+        android:id="@+id/category_selection"
+        android:name="com.example.cabbookingapp.category_selection"
+        android:label="fragment_category_selection"
+        tools:layout="@layout/fragment_category_selection" >
+        <action
+            android:id="@+id/action_category_selection_to_fragment_select_car"
+            app:destination="@id/fragment_select_car" />
+        <action
+            android:id="@+id/action_category_selection_to_fragment_date_and_time"
+            app:destination="@id/fragment_date_and_time" />
+        <action
+            android:id="@+id/action_category_selection_to_fragment_select_car2"
+            app:destination="@id/fragment_select_car" />
+        <action
+            android:id="@+id/action_category_selection_to_fragment_select_car3"
+            app:destination="@id/fragment_select_car" />
+        <action
+            android:id="@+id/action_category_selection_to_fragment_select_car4"
+            app:destination="@id/fragment_select_car" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_date_and_time"
+        android:name="com.example.cabbookingapp.fragment_date_and_time"
+        android:label="fragment_date_and_time"
+        tools:layout="@layout/fragment_date_and_time" >
+        <action
+            android:id="@+id/action_fragment_date_and_time_to_location_selection"
+            app:destination="@id/location_selection" />
+        <action
+            android:id="@+id/action_fragment_date_and_time_to_category_selection"
+            app:destination="@id/category_selection" />
+    </fragment>
+    <fragment
+        android:id="@+id/location_selection"
+        android:name="com.example.cabbookingapp.location_selection"
+        android:label="fragment_location_selection"
+        tools:layout="@layout/fragment_location_selection" >
+        <action
+            android:id="@+id/action_location_selection_to_fragment_date_and_time"
+            app:destination="@id/fragment_date_and_time" />
+        <action
+            android:id="@+id/action_location_selection_to_fragment_book_car"
+            app:destination="@id/fragment_book_car" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_select_car"
+        android:name="com.example.cabbookingapp.fragment_select_car"
+        android:label="fragment_select_car"
+        tools:layout="@layout/fragment_select_car" >
+        <action
+            android:id="@+id/action_fragment_select_car_to_category_selection"
+            app:destination="@id/category_selection" />
+        <action
+            android:id="@+id/action_fragment_select_car_to_my_booking_rv_item"
+            app:destination="@id/my_booking_rv_item" />
+    </fragment>
+    <fragment
+        android:id="@+id/my_booking_rv_item"
+        android:name="com.example.cabbookingapp.my_booking_rv_item"
+        android:label="my_booking_rv_item" >
+        <action
+            android:id="@+id/action_my_booking_rv_item_to_fragment_book_car"
+            app:destination="@id/fragment_book_car" />
+    </fragment>
+</navigation>

@@ -42,4 +42,20 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation 'com.google.android.material:material:1.2.0'
+
+    // Kotlin
+    implementation "androidx.navigation:navigation-fragment-ktx:2.5.0"
+    implementation "androidx.navigation:navigation-ui-ktx:2.5.0"
+
+    // Feature module Support
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:2.5.0"
+
+    // Testing Navigation
+    androidTestImplementation "androidx.navigation:navigation-testing:2.5.0"
+
+    //lottie animations
+    implementation "com.airbnb.android:lottie:3.4.0"
+
+
+    implementation "com.airbnb.android:lottie:3.4.0"
 }
