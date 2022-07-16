@@ -29,7 +29,7 @@
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginTop="50dp"
             android:padding="60dp">
-<!--            <com.airbnb.lottie.LottieAnimationView
+            <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/map_lav_slf"
                 android:layout_marginHorizontal="40dp"
                 android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 app:lottie_autoPlay="true"
                 android:elevation="100dp"
                 app:lottie_rawRes="@raw/map_anim"
-                />    -->
+                />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
